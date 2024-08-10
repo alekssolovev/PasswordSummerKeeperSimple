@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
+
+body{
+    font-family: 'Poppins',sans-serif !important;
+    background: white;
+}
+
+.box-area{
+    width: 930px;
+}
+
+#logo{
+    width: 200px;
+}
+
+.tablebody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.table-wrapper {
+    width: 75%;
+    overflow: hidden;  /* Ensure the border radius is applied */
+    border-radius: 10px;
+}
+.table-scroll {
+    max-height: 500px; /* Adjust height as needed */
+    overflow-y: auto;
+}
+.welcome-message {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.uname{
+    font-weight: 700;
+}
+.table {
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.table thead tr th{
+    background-color: #213a7c !important;
+    color: white !important;
+    position: sticky !important;
+    top: 0;
+    z-index: 1; /* Ensure it stays above the other content */
+}
+
+.table th, .table td{
+    padding: 15px !important;
+
+}
+
+.table td{
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table tbody tr:hover td{
+    background-color: #ccc !important;
+}
+
+span{
+    margin-right: 10px;
+}
+
+.width{
+    width: 100% !important;
+}
+
+.delete{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 4%;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.edit{
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 4%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.delete:hover{
+    background-color: #ffff;
+    color: red;
+}
+
+.logoutbtn:hover{
+    background-color: #ffff;
+    color: red;
+}
+
+.edit:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.addbtn{
+    background-color: green ;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 4%;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.addbtn:hover{
+    color: green;
+    background-color: #fff;
+}
+
+
+.logoutbtn{
+    background-color: red ;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 4%;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.btns{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*
+.homepic{
+    margin-top: 0;
+    margin-bottom: 30px;
+}*/
